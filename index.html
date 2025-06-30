@@ -1,0 +1,206 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LakkisStock - Your Streaming Solution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="site-title"><i class="fas fa-play-circle"></i> LakkisStock</h1>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <!-- Home content -->
+    </section>
+
+    <section id="about">
+        <!-- About content -->
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <p>Explore our offerings for streaming accounts:</p>
+
+            <div class="price-list">
+                <!-- Netflix Card -->
+                <div class="service-card">
+                    <div class="service-header netflix">
+                        <h3><i class="fab fa-netflix"></i> Netflix</h3>
+                    </div>
+                    <div class="price-options">
+                        <div class="option-group">
+                            <h4>User Account</h4>
+                            <div class="options">
+                                <div class="option-item">
+                                    <span class="duration">1 Month</span>
+                                    <span class="price">$3.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">6 Months</span>
+                                    <span class="price">$14.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">1 Year</span>
+                                    <span class="price">$21.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="option-group">
+                            <h4>Full Account</h4>
+                            <div class="options">
+                                <div class="option-item">
+                                    <span class="duration">1 Month</span>
+                                    <span class="price">$5.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">6 Months</span>
+                                    <span class="price">$25.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">1 Year</span>
+                                    <span class="price">$40.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Disney+ Card -->
+                <div class="service-card">
+                    <div class="service-header disney">
+                        <h3><i class="fab fa-disney"></i> Disney+</h3>
+                    </div>
+                    <div class="price-options">
+                        <div class="option-group">
+                            <h4>Standard Plan</h4>
+                            <div class="options">
+                                <div class="option-item">
+                                    <span class="duration">1 Month</span>
+                                    <span class="price">$4.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">6 Months</span>
+                                    <span class="price">$20.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                                <div class="option-item">
+                                    <span class="duration">1 Year</span>
+                                    <span class="price">$35.00</span>
+                                    <input type="number" class="quantity-input" value="1" min="1">
+                                    <button class="order-btn">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more service cards here, each option-item with the input/button -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Phone: (961) 70708025</p>
+                </div>
+                <div class="social-buttons">
+                    <a href="https://wa.me/96170708025" class="social-button whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 LakkisStock. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Nav toggle script -->
+    <script>
+        document.getElementById('navToggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+
+    <!-- Order / WhatsApp Redirect Logic -->
+    <script>
+        document.querySelectorAll('.service-card').forEach(card => {
+            const serviceName = card.querySelector('.service-header h3').innerText.trim();
+            const contactNumber = '96170708025'; // your WhatsApp number (no "+")
+ 
+            card.querySelectorAll('.option-item').forEach(item => {
+                const durationText = item.querySelector('.duration').innerText.trim();
+                const priceValue = parseFloat(item.querySelector('.price').innerText.replace('$', ''));
+
+                const qtyInput = item.querySelector('.quantity-input');
+                const btn = item.querySelector('.order-btn');
+
+                btn.addEventListener('click', () => {
+                    const qty = parseInt(qtyInput.value);
+                    if (qty < 1) {
+                        alert('Please enter a valid quantity.');
+                        return;
+                    }
+                    const total = (priceValue * qty).toFixed(2);
+                    const msg = `Hello! I’d like to order ${qty} × ${serviceName} (${durationText}) for a total of $${total}.`;
+                    const waUrl = `https://wa.me/${contactNumber}?text=${encodeURIComponent(msg)}`;
+                    window.location.href = waUrl;
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+```
